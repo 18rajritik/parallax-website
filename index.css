@@ -1,0 +1,117 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+
+
+
+
+
+
+.background{
+    width:100vw;  
+    position:absolute;
+    z-index:-1;
+    object-fit:cover;
+    transform:translateZ(-40px) scale(5);
+    object-fit:cover;
+    
+    
+ }
+ #wrapper{
+    overflow-X:hidden;  
+   overflow-y:auto;
+   perspective: 10px;
+   height:100vh;
+   
+  
+
+ }
+ .container{
+   position:relative;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   transform-style:preserve-3d;
+   z-index:-1;
+
+
+
+ }
+ .foreground{
+   position:relative;
+   bottom: 0; /* moves image to bottom */
+   left:150px;
+   justify-content:bottom;
+   
+   /* transform: translateY(100%);  */
+  width: 300px; 
+  z-index:-1;
+  object-fit:cover;
+  transform:translateZ(-20px) scale(8);
+  object-fit:cover;
+
+ }
+ h1{
+   position: absolute;
+  top: 30%;      /* adjust this value */
+  left: 50%;     /* centers horizontally */
+  transform: translate(-50%, -50%);
+  font-size: 10rem;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+  background-color:rgba(107, 107, 111,0.5);
+
+ }
+ section{
+  background-color:rgb(45,45,45);
+  color:white;
+  padding:5rem 0;
+ }
+ 
+ .bg1{
+  background-image:url(biking.jpg.jpg);
+  
+ }
+ .bg2{
+  background-image:url(https://wisconsinskydivingcenter.com/wp-content/uploads/2023/03/tandem-skydiving-freefall-wisconsin-lg-2.jpg);
+ }
+ .bg3{
+  background-image:url(https://osteomag.ca/wp-content/uploads/2024/03/2023-12-30_22-17-15-1.webp);
+ }
+ .bg{
+  position:relative;
+  width:100%;
+  height:500px;
+  background-attachment:fixed;
+  background-position: center;
+  zoom:1.658;
+  background-size:cover;
+
+  
+ }
+ .secheading{
+  font-size:5rem;
+  padding:0 10rem;
+ }
+
+ .text{
+  font-size:1.5rem;
+  padding:1 10rem;
+  margin:5rem 0;
+ }
+ .desc{
+  position:absolute;
+  background-color:white;
+  padding:0.5rem 2.5rem;
+  color:black;
+  top:50%;
+  left:50%;
+  transform: translateX(-50%) translateX(-50%);
+  font-size:3.5rem;
+  font-weight:600;
+
+
+ }
